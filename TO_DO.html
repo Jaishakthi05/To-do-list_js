@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/TO_DO_CSS.css">
+</head>
+<body>
+    <nav>
+        <div class="title">
+            NOTE<span id="s1">IT</span>.com
+        </div>
+        <div class="options">
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+                <li>SOCIAL</li>
+                <li>REPORT</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="cont">
+        
+
+        <div class="box">
+            <h1> <i class="fa-regular fa-notes fa-2xl" style="color: #000000;"></i> TO-DO-LIST</h1>
+            <H3>Add your Tasks here. Complete it on time.!</H3>
+
+            <div class="box1">
+                <input id='ip' type="text" placeholder="ADD TASK" >
+                <i class="fa-solid fa-plus fa fa-2xl" style="color: #000000;" onclick="add()" id="add"></i>
+            </div>
+
+
+            <div class="ans" id="ans">
+            <!---<div class="val">
+                     <p>values</p>
+                     
+                     <button onclick="remove()" id="remove">REMOVE</button>
+                </div>
+            </div>--->
+           
+            </div>
+            
+           
+            <section>
+
+                <h2>TO-DO-NOTE</h2>
+                <TExtarea placeholder="MAKE USE OF THE NOTE, ADD YOUR EVENT HERE!"></TExtarea>
+    
+    
+            </section>
+
+
+
+    </div>
+   
+    
+    <script src="/TO_DO.js"></script>
+</body>
+</html>
